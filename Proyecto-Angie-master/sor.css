@@ -1,0 +1,56 @@
+
+body {
+	display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+#form{
+	background-position: center;
+	background-color: darkkhaki;
+	width: 400px;
+	height: 200px;
+	text-align: left;
+	font-family: Poppins;
+	font-style: bold;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	margin: 5px;
+}
+
+#cuadro{
+	background-position: center bottom;
+	background-color: darkkhaki;
+	width: 800px;
+	height: 200px;
+	font-style: bold;
+	display: flex;
+	flex-direction:row;
+	font-family: Poppins;
+	margin: 5px;
+	padding: 3px;
+}
+
+#button {
+	pointer-events: auto;
+	cursor: pointer;
+	background: #e7e7e7;
+	border: none;
+	padding: 1.5rem 3rem;
+	margin: 0;
+	font-family: Poppins;
+	font-size: inherit;
+	display: inline-block;
+}
+
+h2{
+	font-size: 20px;
+}
+
+#imagen{
+	display: flex;
+	background-image: url(https://cdn-icons-png.flaticon.com/128/2424/2424721.png);
+	width: 128px;
+	height: 128px;
+}
